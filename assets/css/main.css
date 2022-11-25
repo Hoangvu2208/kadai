@@ -87,7 +87,7 @@
 }
 
 html {
-  background-image: url("/assets/images/bgc.png");
+  background-image: url(/kadai/bg1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

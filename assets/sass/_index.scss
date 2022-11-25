@@ -21,7 +21,7 @@
   font-family: var(--main-font);
 }
 html {
-  background-image: url('/assets/images/bg1.jpg');
+  background-image: url(/kadai/bg1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -48,8 +48,8 @@ html {
 }
 
 body {
-  // background-color: pink;
-  // background-image: url(/assets/images/bg1.jpg);
+  //background-color: pink;
+  // background-image: url("bg1.jpg");
   // background-size: cover;
   // background-repeat: no-repeat;
   // background-attachment: fixed;
