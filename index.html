@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1" />
+    <title>CSB-Home Page</title>
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      />
+    <!--custom css file  -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="menu">
+        <button class="fa fa-bars btn-menu" id="menu-btn"></button>
+      </div>
+      <nav class="navbar">
+        <a class="nav-link" href="">自社採用企業の方はこちら</a>
+        <a class="nav-link" href="">自社採用企業の方はこちら</a>
+        <a class="nav-link" href="">ログイン</a>
+      </nav>
+    </header>
+
+    <!-- sidebar PC/ mobile 用 -->
+    <div class="sidebar">
+      <button class="fa fa-xmark" id="close-btn"></button>
+      
+
+      <div class="logo">
+        <img src="assets/images/logo-blue.svg" alt="logo" />
+      </div>
+      <div class="sidebar-btn">
+        <button type="button">
+          クリエイターズスカウトバンクの ご登録はこちら（無料）
+        </button>
+      </div>
+
+      <ul>
+        <li><a href="#">ご利用ガイド</a></li>
+        <li><a href="#">利用規約</a></li>
+        <li><a href="#">プライバシーポリシー</a></li>
+        <li><a href="#">お問合せ</a></li>
+        <li><a href="#">イベント情報</a></li>
+        <li><a href="#">お役立ち情報</a></li>
+      </ul>
+    </div>
+
+    <main>
+      <!-- home section starts  -->
+
+      <section class="home" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col-8 home__container">
+              <div class="home__content">
+                <img src="assets/images/logo-white.svg" alt="">
+                <h2>
+                  <span>クリエイター専門</span>の <br> 転職スカウトサイト
+                </h2>
+                <p>
+                  転職を考えるすべてのクリエイターに、求めていた求人のオファーが来る
+                </p>
+              </div>
+
+              <!-- mobile element -->
+              <div class="m-element">
+                <a href="">ログイン</a>
+                <button class="fa fa-bars btn-menu" id="mobile-btn"></button>
+
+              </div>
+              <button class="m-register"><a href="#">登録する（無料）</a></button>
+            </div>
+            <div class="col-4">
+              <div class="form">
+                <form action="">
+                  <div class="form__header">
+                    <h3>クリエイターアカウント登録</h3>
+                    <p>
+                      アカウント登録済みの方は<a href="#">ログインしてください</a>
+                    </p>
+                  </div>
+                  <div class="row mail_row">
+                    <label for="mail"><p>
+                        <i class="fa fa-envelope"></i> メールアドレス
+                      </p></label>
+                    <input
+                      type="email"
+                      name="mail"
+                      placeholder="example@csb.com"
+                      />
+                  </div>
+                  <div class="row checkbox_row">
+                    <input type="checkbox" id="agreeForm" />
+                    <label for="agreeForm">利用規約/プライバシーポリシーに同意する</label>
+                  </div>
+                  <div class="row btn_row">
+                    <button type="submit">登録する（無料）</button>
+                  </div>
+                  <div class="form__policy">
+                    <p>
+                      お客様の情報を送信頂いた時点で、お客様はCSBの
+                      <a href="#">利用規約</a> と
+                      <a href="#">プライバシーポリシー</a>
+                      に同意したものとみなされます
+                    </p>
+                    <p>
+                      「hotmail.com」のドメインと「携帯キャリア」のドメインを使用されている方に、一部メールが届かない不具合が発生しております。
+                      メールが届かない場合は他のドメインでご登録いただくようお願いいたします。
+                    </p>
+                    <img src="assets/images/form_logo.png" alt="form-logo" />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- home section ends -->
+
+      <!-- about section starts -->
+      <section class="about">
+        <h2>CSBとは</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <div class="cart-container">
+                <img src="assets/images/about-1.png" alt="" />
+                <div class="cart-title">
+                  <p>クリエイター特化</p>
+                </div>
+                <div class="cart-content">
+                  <p>
+                    クリエイターに特化した転職支援を
+                    行うユウクリが運営。35年以上培っ
+                    てきた転職サポートの実績をもとに 開発しました。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="cart-container">
+                <img src="assets/images/about-2.png" alt="" />
+                <div class="cart-title">
+                  <p>様々な企業からのスカウト</p>
+                </div>
+                <div class="cart-content">
+                  <p>
+                    自社採用企業だけでなく人材紹介会社からもスカウトが来ます。転職の成功はもちろん、転職先の可能性が広がります。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="cart-container">
+                <img src="assets/images/about-3.png" alt="" />
+                <div class="cart-title">
+                  <p>非公開求人多数</p>
+                </div>
+                <div class="cart-content">
+                  <p>
+                    市場にまだ公開されていない希少な
+                    求人と出会うことができます。想像
+                    していなかったような企業・求人と 出会えるチャンスです。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about section ends -->
+
+      <!-- feature section start -->
+
+      <section class="feature" id="feature">
+        <h2>CSBの特徴</h2>
+        <div class="container">
+          <div class="row">
+            <!-- feature item  -->
+            <div class="col-6 item">
+              <div class="col-4">
+                <div class="icon">
+                  <i class="fa fa-id-card"></i>
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="item__des">
+                  <h4>01</h4>
+                  <p>
+                    クリエイターならではの強みをアピールできる登録フォーム。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- feature item  -->
+            <div class="col-6 item">
+              <div class="col-4">
+                <div class="icon">
+                  <i class="fa fa-clock"></i>
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="item__des">
+                  <h4>02</h4>
+                  <p>日程調整・進捗確認・連絡もCSBで一括管理できます。</p>
+                </div>
+              </div>
+            </div>
+            <!-- feature item  -->
+            <div class="col-6 item">
+              <div class="col-4">
+                <div class="icon">
+                  <i class="fa-solid fa-chalkboard-user"></i>
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="item__des">
+                  <h4>03</h4>
+                  <p>
+                    人材紹介会社の求人に応募する場合も、CSB内で完結できます。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- feature item  -->
+            <div class="col-6 item">
+              <div class="col-4">
+                <div class="icon">
+                  <i class="fa fa-person-running"></i>
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="item__des">
+                  <h4>04</h4>
+                  <p>
+                    クリエイティブ業界に精通したアドバイザーが登録内容を添削。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- feature item  -->
+            <div class="col-6 item">
+              <div class="col-4">
+                <div class="icon">
+                  <i class="fa-solid fa-bullseye"></i>
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="item__des">
+                  <h4>05</h4>
+                  <p>
+                    メッセージの一斉送信機能を制限。マッチした求人のみを紹介。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- feauter section ends -->
+
+      <!-- scount section start -->
+
+      <section class="scount" id="scount">
+        <h2>スカウトとは</h2>
+
+        <div class="container">
+          <img src="assets/images/scount.svg" alt="">
+
+        </div>
+      </section>
+
+      <!-- scount section end -->
+
+
+      <!-- process section start  -->
+      <section class="process" id="process">
+        <h2>登録までの流れ</h2>
+
+        <div class="container process-container">
+          <div class="process-item">
+            <a href="">メールアドレス <br> 登録</a>
+          </div>
+          <div class="process-img"><img src="assets/images/process_triangle.svg" alt=""></div>
+          <div class="process-item">
+            <a href="">経歴・希望条件 <br>入力</a>
+          </div>
+          <div class="process-img"><img src="assets/images/process_triangle.svg" alt=""></div>
+          <div class="process-item">
+            <a href="">ポートフォリオ等 <br> 登録</a>
+          </div>
+          <div class="process-img"><img src="assets/images/process_triangle.svg" alt=""></div>
+          <div class="process-item process-item__final">
+            <a href="">スカウターへ<br>プロフィール公開</a>
+          </div>
+
+        </div>
+        <div class="process-btn">
+          <p>プロフィールを作成し、スカウトを待つ！</p>
+          <button>
+            <img src="assets/images/logo-white.svg" alt="">
+            <a href="#">クリエイターズスカウトバンクの ご登録はこちら（無料）</a>
+          </button>
+        </div>
+
+        
+
+
+      </section>
+
+
+      <section class="galery">
+        <div class="galery-container">
+          <div class="img-galery">
+            <img src="assets/images/pro-1.png" alt="">
+            <img src="assets/images/pro-2.png" alt="">
+            <img src="assets/images/pro-3.png" alt="">
+            <img src="assets/images/pro-4.png" alt="">
+            <img src="assets/images/pro-5.png" alt="">
+            <img src="assets/images/pro-6.png" alt="">
+            <img src="assets/images/pro-7.png" alt="">
+            <img src="assets/images/pro-8.png" alt="">
+            <img src="assets/images/pro-9.png" alt="">
+            <img src="assets/images/pro-10.png" alt="">
+            <img src="assets/images/pro-11.png" alt="">
+            <img src="assets/images/pro-12.png" alt="">
+            <img src="assets/images/pro-13.png" alt="">
+            <img src="assets/images/pro-14.png" alt="">
+          </div>
+          <div class="galery-container__content">
+            <h3>- 取り扱い職種の例 -</h3>
+            <p>Webディレクター Webアートディレクター Webデザイナー Webプロデューサー Webマーケター UI・UXデザイナー フロントエンドエンジニア　マークアップエンジニア　グラフィックデザイナー　エディトリアルデザイナー　クリエイティブディレクター　プロジェクトマネージャー　イラストレーター　キャラ</p>
+  
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- process section end -->
+
+      <section class="voice" id="voice">
+        <h2>転職成功者の声</h2>
+        <div class="voice-container">
+          
+          <div class="member-img">
+            <img src="assets/images/member1.png" alt="">
+            <div class="member-img__des">
+              <p>30代 <br> アートディレクター</p>
+            </div>
+          </div>
+          <div class="voice-content">
+            <p>今回の転職では、量より質で選択肢を見つけたいと思い、クリエイティブに特化したCSBに登録をしました。上流職種ということもあり、なかなか世の中に求人が出回っていないのですが、CSBでは非公開求人含め、自分にマッチした求人でスカウトしてもらえました。</p>
+          </div>
+
+          <div class="member-img">
+            <img src="assets/images/member2.png" alt="">
+            <div class="member-img__des">
+              <p>30代 男性<br> WEBディレクター</p>
+            </div>
+          </div>
+          <div class="voice-content">
+            <p>20代の頃から10年程フリーランスをしていました。結婚もして子供も生まれるのでこの機会に働き方を見直したく転職を決意。CSBでは選考も一貫して管理ができるのでラクです。登録して待つだけで、求人オファーが来るので、働きながらでもスムーズに転職活動が進むので助かります。</p>
+          </div>
+
+          <div class="member-img">
+            <img src="assets/images/member3.png" alt="">
+            <div class="member-img__des">
+              <p>20代 女性<br>UIデザイナー</p>
+            </div>
+          </div>
+          <div class="voice-content">
+            <p>もともとユウクリに登録していましたが、他の人材会社や企業からの直接のオファーにも興味があり登録してみました。他のスカウトサイトとは違い、ポートフォリオの登録やこれまでの実績をアピールしやすいフォームになっていると感じました。</p>
+          </div>
+
+          
+          
+        </div>
+      </section>
+
+
+    </main>
+    <footer class="footer" id="footer">
+      <div class="footer-container">
+        <h2>
+          <span>クリエイター専門</span>の <br> 転職スカウトサイト
+        </h2>
+
+        <div class="form">
+          <form action="#" method="post">
+            <div class="form__header">
+              <h3>クリエイターアカウント登録</h3>
+              <p>
+                アカウント登録済みの方は<a href="#">ログインしてください</a>
+              </p>
+            </div>
+            <div class="row mail_row">
+              <label for="mail"><p>
+                  <i class="fa fa-envelope"></i> メールアドレス
+                </p></label>
+              <input
+                type="email"
+                name="mail"
+                placeholder="example@csb.com"
+                />
+            </div>
+            <div class="row checkbox_row">
+              <input type="checkbox" id="agreeForm" />
+              <label for="agreeForm">利用規約/プライバシーポリシーに同意する</label>
+            </div>
+            <div class="row btn_row">
+              <button type="submit">登録する（無料）</button>
+            </div>
+            <div class="form__policy">
+              <p>
+                お客様の情報を送信頂いた時点で、お客様はCSBの
+                <a href="#">利用規約</a> と
+                <a href="#">プライバシーポリシー</a>
+                に同意したものとみなされます
+              </p>
+              <p>
+                「hotmail.com」のドメインと「携帯キャリア」のドメインを使用されている方に、一部メールが届かない不具合が発生しております。
+                メールが届かない場合は他のドメインでご登録いただくようお願いいたします。
+              </p>
+              <img src="assets/images/form_logo.png" alt="form-logo" />
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="end-page">
+        <div class="footer-logo">
+          <img src="assets/images/logo-white.svg" alt="">
+          <p> &copy; Copyright</p>
+        </div>
+        <div class="link">
+          <a href="#">クリエイターズスカウトバンクトップ <span>|</span></a> 
+          <a href="#">利用規約 <span>|</span></a> 
+          <a href="#">プライバシーポリシー</a> 
+          <a href="#">運営会社 <span>|</span></a> 
+          <a href="#">お問合せ  <span>|</span></a> 
+          <a href="#">材紹介会社の方はこちら <span>|</span></a> 
+          <a href="#">自社採用企業の方はこちら</a> 
+        </div>
+
+      </div>
+      <p class="copy-right"> &copy; Coryright</p>
+
+
+
+    </footer>
+
+    <!--custom js file  -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>     
